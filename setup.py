@@ -54,7 +54,7 @@ def py2exe_params():
             'version': VERSION,
             'description': DESCRIPTION,
             'comments': LONG_DESCRIPTION.split('\n')[0],
-            'product_name': 'yt-dlp',
+            'product_name': 'rdlp',
             'product_version': VERSION,
         },
         'options': {
@@ -135,7 +135,7 @@ def main():
         params = build_params()
 
     setup(
-        name='yt-dlp',
+        name='rdlp',
         version=VERSION,
         maintainer='pukkandan',
         maintainer_email='pukkandan.ytdlp@gmail.com',
